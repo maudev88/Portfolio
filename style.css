@@ -420,3 +420,19 @@ footer {
   background-color: #1B1B1D;
   color: white;
 }
+
+@media screen and (max-width: 418px) {
+  #itemsDiv {
+    flex-direction: column;
+    gap: 0px!important;
+  }
+
+  #items {
+    text-align: center!important;
+  }
+
+}
+
+.idiomasContenido {
+  margin-top: 7px;
+}
